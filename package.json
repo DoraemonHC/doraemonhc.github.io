@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "http-server -S -C cert/server.crt -K cert/server.key -p 443 -c-1",
+        "install": "cd cert && del *.key && del *.crt && mkcert.bat"
+    }
+}
